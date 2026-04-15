@@ -21,7 +21,6 @@ Server	WSGI-compatible (Gunicorn)
 Installation & Setup
 Method 1: Local Setup
 Clone the repository
-git clone https://github.com/AdilShamim8/Book-Recommender-System.git
 cd Book-Recommender-System
 Create and activate a virtual environment
 python -m venv venv
