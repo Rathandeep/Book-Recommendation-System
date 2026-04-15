@@ -48,40 +48,8 @@ Recommends books based on similarity between users
 Uses TF-IDF vectorization for text feature extraction
 Applies cosine similarity to find related books
 Best for discovering new books similar to user preferences
-Book-Recommender-System/
-├── app.py                          # Flask application entry point
-├── requirements.txt                # Python dependencies
-├── Dockerfile                      # Docker containerization config
-├── LICENSE                         # MIT License
-├── README.md                       # Project documentation
-│
-├── Datasets/
-│   ├── README.md                   # Dataset documentation
-│   └── [book and rating data]      # Raw and processed book datasets
-│
-├── static/
-│   └── css/
-│       └── style.css               # Application styling
-│
-├── templates/
-│   ├── base.html                   # Base template with navigation
-│   ├── index.html                  # Home page
-│   ├── popular_books.html          # Popular books listing
-│   ├── collaborative.html          # Collaborative filtering interface
-│   └── personal.html               # Personalized recommendations
-│
-└── *.pkl (Model files)
-    ├── popularity_model.pkl        # Pre-trained popularity rankings
-    └── collab_model.pkl            # Pre-trained collaborative filtering model
-    ↓
-Search/Select Book
-    ↓
-TF-IDF Vectorization
-    ↓
-Cosine Similarity Computation
-    ↓
-Rank & Return Top 5 Books
-The system uses pre-trained ML models for fast inference without requiring real-time retraining
+
+
 
 The system leverages comprehensive book datasets containing:
 
